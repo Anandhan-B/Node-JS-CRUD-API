@@ -1,0 +1,43 @@
+1. Create a collection of books with fields like title, author,year, and category. Write a query to find all books with the category ""Science Fiction.""
+
+2. In the same book collection, write a query to find books published after the year 2000.
+
+3. Write a query to find books with the category ""Fantasy"" published after 2010."
+"Retrieve the first three books (documents) in the collection and sort them alphabetically by title.
+
+"4. Create a collection of products with a ""price"" field. Write a query to find products with a price greater than $50.
+
+5. Find products where the ""color"" field is not ""Red,"" ""Green,"" or ""Blue.""
+
+6. Retrieve products with a ""rating"" greater than or equal to 4.0 and less than 5.0.
+
+7. Retrieve products that are both in the ""Electronics"" category and have a ""price"" less than $100.
+
+
+"8. In the same collection, write a query to retrieve all documents and sort them in descending order based on a date field, e.g., ""createdAt.""
+
+9. Create a collection of books with fields like ""author"" and ""publicationYear."" Write a query to retrieve books and sort them first by the ""author"" field in ascending order and then by the ""publicationYear"" field in descending order.
+
+10. Retrieve documents from a collection of products and sort them alphabetically by the ""name"" field (a text field).
+
+11. Retrieve the top 5 highest-priced products from a collection and sort them in descending order by ""price."""
+
+12. "What is the query to update the ""status"" field of a single document from ""active"" to ""inactive""?
+
+13. In the same collection, write a query to remove the "description" field from a specific document using the $unset operator.
+
+14. Create a collection of products with a "quantity" field. Write a query to increment the "quantity" of a specific product by 5 units using the $inc operator.
+
+15. Retrieve a document from a collection with an array field (e.g., "tags"). Write a query to add a new tag, "featured," to the "tags" array using the $push operator
+
+16. Write a query to remove the last element from an array field (e.g., "comments") in a specific document using the $pop operator.
+
+17. Retrieve a document from a collection with an array field (e.g., "favourites"). Write a query to add a new favourite item, "item123," to the "favourites" array only if it doesn't already exist using the $addToSet operator.
+
+18. Write a query to remove all occurrences of a specific tag, "oldTag," from an array field (e.g., "tags") in a specific document using the $pull operator.
+
+19. Create a collection of orders with a "totalAmount" field. Write a query to update the "status" field to "shipped" for all orders with a "totalAmount" greater than $100.
+
+20. If your collection contains documents with nested fields (e.g., "address.city"), write a query to update the "city" field within the "address" subdocument for a specific document.
+
+21. Retrieve products from a collection and write a query to increase the "discount" field by 5% for products where the "price" is greater than $100.
