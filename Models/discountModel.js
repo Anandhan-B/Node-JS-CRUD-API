@@ -1,3 +1,4 @@
+import { Double } from "mongodb";
 import mongoose from "mongoose";
 const discountSchema = new mongoose.Schema({
     product:{
@@ -8,7 +9,7 @@ const discountSchema = new mongoose.Schema({
         type:Number,
         required:true
     },
-    discount:{
+    Discount:{
         type:Number,
         required:true
     },
