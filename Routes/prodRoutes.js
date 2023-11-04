@@ -9,6 +9,6 @@ route.get('/categoryAndPrice',(req,res)=>controller.categoryAndPrice(req,res))  
 route.get('/date',(req,res)=>controller.date(req,res))  //Task 8
 route.get('/sort',(req,res)=>controller.sort(req,res))  //Task 10
 route.get('/highPrice',(req,res)=>controller.highPrice(req,res))  //Task 11
-route.put('/quantity',(req,res)=>controller.quantity(req,res))  //Task 14
+route.patch('/quantity',(req,res)=>controller.quantity(req,res))  //Task 14
 
 export default route
